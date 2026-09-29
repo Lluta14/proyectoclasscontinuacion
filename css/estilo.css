@@ -1,0 +1,40 @@
+body{
+    background-color: skyblue;
+}
+.padre{
+    padding: 3px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+    grid-template-areas: "titulo titulo"
+                        "menu menu"
+                        "contenido publi"
+                        "pie pie"  ;
+
+    }
+    .titulo{
+        grid-area: titulo;
+        background-color: azure;
+ 
+    }
+    .menu{
+        grid-area: menu;
+        background-color: azure;
+        padding: 5px;
+        
+    }
+    .contenido{
+        grid-area: contenido;
+        background-color: azure;
+    }
+    .publi{
+        grid-area: publi;
+        background-color: azure;
+    }
+    .pie{
+        grid-area: pie;
+        background-color: azure;
+        
+    }
+    
